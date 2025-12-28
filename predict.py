@@ -3,17 +3,17 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # Training data
-X = np.array([[1],[5], [8],[10],[15],])
+X = np.array([[5],[8], [13],[17],[21],])
 
-y = np.array([10, 31, 40, 62, 70])
+y = np.array([31,59,78,91,110])
 
 # Model
-print(niteesh_pandey)
+print("niteesh_pandey")
 model = LinearRegression()
 model.fit(X, y)
 
 # Prediction
-area = int(input("20")
+area = int(input("kripya batao")
 prediction = model.predict([[area]])
 
 print("Predicted output:", prediction[0])
