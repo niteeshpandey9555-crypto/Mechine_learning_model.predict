@@ -13,7 +13,7 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Prediction
-area = int(input("kripya batao")
+area = int(input("kripya batao"))
 prediction = model.predict([[area]])
 
 print("Predicted output:", prediction[0])
